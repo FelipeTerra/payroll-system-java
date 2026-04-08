@@ -22,6 +22,7 @@ public class Program {
 
         Employee e1 = new Employee(101, "Amanda Terra", hoje, 3500.0, tech, PerformanceLevel.BEGINNER);
         Employee e2 = new Employee(102, "Felipe Terra", hoje, 9000.0, tech, PerformanceLevel.ADVANCED);
+        Employee e5 = new Employee(102, "Leonardo Terra", hoje, 9000.0, tech, PerformanceLevel.BEGINNER);
         Employee e3 = new Employee(201, "Sonia Oliveira", hoje, 5000.0, hr, PerformanceLevel.PROFICIENT);
         Employee e4 = new Employee(201, "Vinicius Oliveira", hoje, 5000.0, hr, PerformanceLevel.PROFICIENT);
 
@@ -30,6 +31,7 @@ public class Program {
         tech.addEmployee(e2);
         hr.addEmployee(e3);
         hr.addEmployee(e4);
+        hr.addEmployee(e5);
 
         // 4. Saída de dados
         System.out.println(tech);
